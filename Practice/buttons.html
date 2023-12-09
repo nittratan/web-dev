@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Practice</title>
+</head>
+<body>
+    
+    <!-- button tage in html -->
+    <h3>button tage in html</h3>
+    <a href="https://www.google.com" target="_blank" title="open google">
+    <button style="background-color: aquamarine; border-radius: 5px;">Click hare!</button>
+    </a>
+
+    <br><br>
+
+    <a href="index.html">
+    <button style="background-color: rgb(7, 115, 136);">Click hare!</button>
+    </a>
+
+
+    <br><br>
+    <button onClick="doNothing()" style="background-color: rgb(95, 100, 101);">Click hare!</button>
+    <script>
+        function doNothing(){
+            alert("Nothing to do!");
+        }
+    </script>
+
+    <br><br>
+    <button onClick="doSomething()" style="background-color: rgb(95, 100, 101);">Click hare!</button>
+    <p id="demo">NIT's</p>
+    <script>
+        function doSomething(){
+            document.getElementById("demo").innerHTML = "NIT, Trichy is the best!";
+        }
+    </script>
+
+    
+</body>
+</html>
